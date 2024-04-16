@@ -37,7 +37,7 @@ class Program
                 }
                 else
                 {
-                    Console.WriteLine("Деление на ноль!");
+                    Console.WriteLine("Делить на 0 нельзя!");
                 }
                 break;
             default:
