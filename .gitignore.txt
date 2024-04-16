@@ -1,3 +1,4 @@
-Calculator/Calculator.csproj
-Calculator/App.config
+Calculator/Calculator/Calculator.csproj
+Calculator/Calculator/App.config
 Calculator/Properties/AssemblyInfo.cs
+Calculator/Calculator/Properties/AssemblyInfo.cs
