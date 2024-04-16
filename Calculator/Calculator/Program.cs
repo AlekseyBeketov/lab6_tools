@@ -25,8 +25,14 @@ class Program
                 Console.WriteLine($"Результат: {num1} + {num2} = {num1 + num2}");
                 break;
             case '2':
-                Console.WriteLine($"Результат: {num1} - {num2} = {num1 - num2}");
-                break;
+                if (num1 >= num2)
+                {
+                    Console.WriteLine($"Результат: {num1} - {num2} = {num1 - num2}");
+                }
+                else
+                {
+                    Console.WriteLine("Результат отрицательный. Выполнение операции невозможно.");
+                }
             case '3':
                 Console.WriteLine($"Результат: {num1} * {num2} = {num1 * num2}");
                 break;
