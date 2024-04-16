@@ -1,0 +1,3 @@
+Calculator/Calculator.csproj
+Calculator/App.config
+Calculator/Properties/AssemblyInfo.cs
