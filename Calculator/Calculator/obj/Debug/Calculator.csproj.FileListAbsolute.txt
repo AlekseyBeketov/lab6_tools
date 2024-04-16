@@ -5,7 +5,3 @@ D:\Sources\lab6\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyRefere
 D:\Sources\lab6\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\Sources\lab6\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\Sources\lab6\Calculator\Calculator\obj\Debug\Calculator.pdb
-D:\Sources\lab6_tools\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
-D:\Sources\lab6_tools\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-D:\Sources\lab6_tools\Calculator\Calculator\obj\Debug\Calculator.exe
-D:\Sources\lab6_tools\Calculator\Calculator\obj\Debug\Calculator.pdb

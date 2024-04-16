@@ -18,7 +18,7 @@ class Program
 
         Console.Write("Введите второе число: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
-        //тестовое изменение
+
         switch (choice)
         {
             case '1':
