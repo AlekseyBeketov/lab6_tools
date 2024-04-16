@@ -52,15 +52,5 @@ class Program
                 Console.WriteLine("Некорректный выбор операции.");
                 break;
         }
-        Console.Write("Хотите выполнить еще одну операцию? (Y/N): ");
-        string again = Console.ReadLine();
-        if (again.ToLower() == "Y")
-        {
-            Main(); // Рекурсивный вызов для выполнения еще одной операции
-        }
-        else
-        {
-            Console.WriteLine("До свидания!");
-        }
     }
 }
