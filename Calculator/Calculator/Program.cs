@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Добро пожаловать в простейший калькулятор. Пользуйтесь на здоровье!");
         Console.WriteLine("Доступные операции:");
         Console.WriteLine("1. Сложение (+)");
         Console.WriteLine("2. Вычитание (-)");
@@ -33,6 +34,7 @@ class Program
                 {
                     Console.WriteLine("Результат отрицательный. Выполнение операции невозможно.");
                 }
+                break;
             case '3':
                 Console.WriteLine($"Результат: {num1} * {num2} = {num1 * num2}");
                 break;
@@ -49,17 +51,6 @@ class Program
             default:
                 Console.WriteLine("Некорректный выбор операции.");
                 break;
-        }
-
-        Console.Write("Хотите выполнить еще одну операцию? (да/нет): ");
-        string again = Console.ReadLine();
-        if (again.ToLower() == "да")
-        {
-            Main(); // Рекурсивный вызов для выполнения еще одной операции
-        }
-        else
-        {
-            Console.WriteLine("До свидания!");
         }
     }
 }
